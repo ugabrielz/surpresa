@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff1f6">
+  <meta name="description" content="Uma pequena surpresa feita com carinho.">
+  <title>Uma surpresa para você 💗</title>
+  <link rel="preload" href="imagem.jpg" as="image">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="petal-field" aria-hidden="true"></div>
+  <main>
+    <section class="loader-screen" id="loader" aria-label="Preparando uma surpresa">
+      <div class="loader-content">
+        <div class="rose-stage" aria-hidden="true">
+          <span class="rose rose-back">🌹</span>
+          <span class="rose rose-left">🌹</span>
+          <span class="rose rose-right">🌹</span>
+          <span class="rose rose-center">🌹</span>
+          <span class="sparkle sparkle-one">✦</span>
+          <span class="sparkle sparkle-two">✧</span>
+          <span class="sparkle sparkle-three">✦</span>
+        </div>
+        <p class="loading-title">Preparando algo especial</p>
+        <p class="loading-subtitle">feito com carinho para você</p>
+        <div class="progress-track" role="progressbar" aria-label="Carregando surpresa"><span class="progress-fill"></span></div>
+      </div>
+    </section>
+
+    <section class="reveal-screen" id="reveal" aria-hidden="true">
+      <div class="card">
+        <p class="eyebrow"><span>✿</span> uma surpresa para você <span>✿</span></p>
+        <div class="photo-frame">
+          <div class="photo-glow" aria-hidden="true"></div>
+          <img id="surprise-image" src="imagem.jpg" alt="Uma foto especial para nós">
+          <span class="frame-heart heart-one" aria-hidden="true">♡</span>
+          <span class="frame-heart heart-two" aria-hidden="true">✧</span>
+        </div>
+        <p class="message">Meu lugar favorito é ao seu lado. <span aria-hidden="true">♥</span></p>
+        <div class="ornament" aria-hidden="true"><span></span>❀<span></span></div>
+        <p class="signature">com todo meu carinho</p>
+      </div>
+      <p class="footer-note">uma lembrança só nossa <span aria-hidden="true">♡</span></p>
+    </section>
+  </main>
+  <noscript><p class="noscript-message">Ative o JavaScript para ver a animação da surpresa.</p></noscript>
+</body>
+</html>

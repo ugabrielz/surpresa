@@ -1,0 +1,8 @@
+PÁGINA ROMÂNTICA — COMO USAR
+
+1. Coloque sua foto nesta pasta e renomeie-a para: imagem.jpg
+2. Mantenha imagem.jpg junto com index.html, style.css e script.js.
+3. Abra index.html no navegador para testar.
+4. Para compartilhar por link, publique os arquivos em um serviço de hospedagem estática, como Netlify ou GitHub Pages.
+
+A animação dura aproximadamente 3 segundos. A foto é carregada a partir do arquivo local imagem.jpg.
